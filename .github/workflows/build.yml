@@ -19,4 +19,3 @@ jobs:
         with:
           name: EvoMerger-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-      - run: unzip -l app/build/outputs/apk/debug/app-debug.apk | grep "lib/" || true
